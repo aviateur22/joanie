@@ -19,7 +19,7 @@ module.exports = {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     "quotes": ["warn", "double", { "avoidEscape": true }],
-    "indent" : ["warn","4"],
+    "indent" : ["warn",4],
     "semi" :["error","always"],    
     "no-var": "error",
     "camelcase" :"warn",
