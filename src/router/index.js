@@ -16,6 +16,13 @@ const routes = [
         component: function () {
             return import(/* webpackChunkName: "about" */ '../views/About.vue');
         }
+    },
+    {
+        path: '/family',
+        name :'Family',
+        component:function(){
+            return import(/* webpackChunkName: "about" */ '../views/Family.vue');
+        }
     }
 ];
 
