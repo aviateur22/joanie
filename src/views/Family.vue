@@ -1,21 +1,25 @@
 <template>
   
-  <div class="container">
-    <h1 class="family__title"> Family </h1>
-    <section class="family__map">
-
+  <div class="container">    
+    <section class="family_image">
+        <FamilyImage/>
     </section>
-    <section class="section family__people">
-
-      
-
+    <section class="family__map">
+      <FamilyMap/>
+    </section>
+    <section class="section family__member">
+        <FamilyMember/>
     </section>
   </div>
   
 </template>
 
 <script>
+import FamilyMember from '../components/family/FamilyMember.vue';
+import FamilyImage from '../components/family/FamilyImage.vue';
+import FamilyMap from '../components/family/FamilyMap.vue';
 export default {
+    components:{FamilyMember,FamilyImage,FamilyMap},
 
 };
 </script>
@@ -28,7 +32,7 @@ export default {
 .family__map{
 
 }
-.family__people{
+.family__member{
 
 }
 
